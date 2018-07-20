@@ -2,6 +2,10 @@
 $(document).ready(function(){
 	// console.log('+++line2: fileName:app.js functionName:jquery.ready expected: no error actual : ',$)
 
+	//to pull up all storage values use 
+	//localStorage.length as your array length
+	//localStorage.key(index) to access by number
+
 	// attach event listener to buttons(input)
 	// create function stub for read/write/delte
 		// research local storage
