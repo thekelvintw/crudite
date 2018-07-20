@@ -10,8 +10,14 @@ $(document).ready(function(){
 
 	// })
 	$('.store-btn').on('click',function(event){
-		console.log(event.target);
-		localStorage.setItem('hrext','there is the best')
-	})
+		localStorage.setItem('hrext','this is awesome')
+	});
+
+	$('.get-btn').on('click',function(event){
+		console.log(localStorage.getItem('hrext'))
+	});
+		$('.delete-btn').on('click',function(event){
+		console.log(localStorage.removeItem('hrext'))
+	});
 
 });

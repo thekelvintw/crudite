@@ -17,11 +17,12 @@ Delete Data- remove data from local storage.
 MVP- A form with two fields, two buttons(one to get, one to set),able to get and set data in local 
 storage via the form. Basic UX and Nasic CSS.
 
-1.Create a form
+√1.Create a form
 
-2.Add Event listener(s)
+√2.Add Event listener(s)
 
 3.Learn about local storage
+3a set variable
 
 4.Implement basic write to local storage(hard code)
 
