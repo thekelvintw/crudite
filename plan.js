@@ -22,11 +22,13 @@ storage via the form. Basic UX and Nasic CSS.
 √2.Add Event listener(s)
 
 3.Learn about local storage
-3a set variable
+√3a set variable
+√3b get storage variable
+√3c delete storage variable.
 
-4.Implement basic write to local storage(hard code)
+√4.Implement basic write to local storage(hard code)
 
-5.implement basic read from local storage
+√5.implement basic read from local storage
 
 6.make read/write dynamic(attached to from event)
 6a. update data
