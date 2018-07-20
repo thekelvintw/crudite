@@ -18,14 +18,24 @@ $(document).ready(function(){
 
 	$('.get-btn').on('click',function(event){
 		// console.log(localStorage.getItem('hrext'));
-		let titleValue = $('.input-field-title').val();
-		let contentValue = $('.input-field-body').val();
+		 let titleValue = localStorage.getItem('titleValue');
+   		 let contentValue = localStorage.getItem('contentValue');
 
 		 $('.debug').html(`<p>${titleValue} ${contentValue}</p>`);
 
 	});
 		$('.delete-btn').on('click',function(event){
-		console.log(localStorage.removeItem('hrext'));
+			// TODO add in a confirm
+				// throw up .confirm window
+				// capture result
+				// trst boolean to delete or not
+		 let titleValue = localStorage.removeItem('titleValue');
+   		 let contentValue = localStorage.removeItem('contentValue');
+   		 $('.debug').html(`<p>Items deleted</p>`);
+
+   		
+
+   		}
 	});
 
 });

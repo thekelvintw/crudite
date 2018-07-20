@@ -35,8 +35,15 @@ storage via the form. Basic UX and Nasic CSS.
 6b. delete data
 
 7.Basic CSS
+7alayout
+7b.form styling aka borders, colors,shapes
 
-8.UX- Input confirmation/Validation
+
+
+8.UX- 
+8a. Input confirmation/Validation
+8.b place holder values / labels
+8c. replace content input type with texturarea
 
 
 MVP+
